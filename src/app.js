@@ -39,7 +39,7 @@ const initPlayers = (players) => {
      }
      detailedPlayers[i]=players;
     }
-    console.log(detailedPlayers)
+    // console.log(detailedPlayers)
     return detailedPlayers;
 }
 
@@ -65,7 +65,7 @@ const buildPlayers = (players, type) => {
         <div class="name">${players[i].name}</div>
         <div class="strength">${players[i].strength}</div>
      </div>`}
-     
+
        if(type==="villain" && players[i].type==="villain"){
         fragment += `<div class="player">
         <img src="${players[i].image}">
